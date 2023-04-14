@@ -49,9 +49,9 @@ VALUES
 
 DELIMITER //
 
-DROP PROCEDURE IF EXISTS showProductsCategories //
+DROP PROCEDURE IF EXISTS showProductsWithCategories //
 
-CREATE PROCEDURE myProcedure()
+CREATE PROCEDURE showProductWithCategories()
 BEGIN  
   SELECT tblProducts.prodName, tblCategories.catName
   FROM tblProducts
