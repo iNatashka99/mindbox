@@ -1,0 +1,8 @@
+/MindBoxCase/packages
+/MindBoxCase/TestResults
+bin
+obj
+.vs
+*.csproj
+*.config
+Properties
